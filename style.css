@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&family=Ubuntu&display=swap');
 html {
     height: 100%;
 }
@@ -37,9 +37,29 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 .sub-heading{
     color: #3b3a3a;
     text-transform: uppercase;
     font-family: 'PT Sans Narrow', sans-serif;
+    cursor: pointer;
+}
+
+.objective{
+    display: none;
+}
+.sub-heading:hover +.objective{
+    display: block;
+    position: absolute;
+    background-color: #fffde785;
+    border-radius: 8px;
+    padding: 6px 11px;
+    width: 50%;
+    top: 8%;
+    right: 25%;
+    
+}
+.objective>p{
+    font-family: 'Ubuntu', sans-serif;
 }
