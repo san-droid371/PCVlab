@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap');
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-family: 'Roboto', sans-serif;
+    margin: 2.5rem auto;
+    width: 60vw;
+    text-align: center;
+}
+
+.background{
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3)
+    );
+    width: 70vw;
+    min-height: 60vh;
+    border-radius: 1.8rem;
+    box-shadow: 2px 2px 8px rgba(3, 3, 3, 0.466);
+    padding: 1.2rem 3.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-heading{
+    color: #3b3a3a;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
